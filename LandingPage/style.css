@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto+Mono:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(45deg, #000000 16.62%, #1f002e 85.61%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.4em;
+}
+
+.header-logo{
+    border-radius: 99999999999px;
+    width: 2.5em;
+}
+
+.header-menu{
+    display: flex;
+    gap: 2em;
+}
+
+.header-menu-item{
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: .8em;
+    transition: .5s;
+}
+.header-menu-item:hover{
+    color: #cecece;
+    transition: 1s;
+}
+
+.main{
+    border-top: .5px solid #ffffff42;
+    margin-bottom: 2em;
+    padding-top: 4em;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-section-div{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.main-section-div-title{
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+}
+
+.main-section-div-subtitle{
+    color: #ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 0.8em;
+}
+
+.main-section-div-button{
+    background-color: rgb(255, 255, 255);
+    width: 10em;
+    padding: .8em;
+    font-family: 'Exo 2', sans-serif;
+    color: #000000;
+    border-radius: 25px;
+    font-weight: 700;
+    border: none;
+    transition: .5s;
+}
+.main-section-div-button:hover{
+    background-color: #cecece;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main-section-image{
+    width: 18em;
+}
+
+.second-main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4em;
+    margin-top: 5em;
+}
+
+.second-main-section-title{
+    color: #ffffff;
+    font-family: 'Exo 2', sans-serif;
+    border-top: .5px solid #ffffff42;
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
+
+.second-main-section-paragraph{
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: .5px solid #ffffff42;
+}
+
+.footer-title{
+    text-align: center;
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
